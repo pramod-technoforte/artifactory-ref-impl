@@ -155,6 +155,8 @@ COPY /src/icu4j/* ${icu4j_jar_path}/
 
 COPY /src/auth/* ${regproc_jar_path}/
 
+COPY /src/esignet/* ${esignet_wrapper_lib_zip_path}/esignet-wrapper/
+
 COPY ./configure.sh ${work_dir}/
 
 COPY pom.xml ${work_dir}/
