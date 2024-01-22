@@ -298,7 +298,7 @@
 					<groupId>io.mosip.esignet.mock</groupId>
 					<artifactId>mock-esignet-integration-impl</artifactId>
 					<version>${esignet-mock-wrapper.version}</version>
-					<scope>system</scope>
+					<!-- <scope>system</scope> -->
     					<systemPath>${project.basedir}/src/esignet/mock-esignet-integration-impl/0.9.1/mock-esignet-integration-impl-0.9.1.jar</systemPath>
 					<outputDirectory>${esignet-wrapper.location}</outputDirectory>
 					<destFileName>${esignet-mock-wrapper.fileName}</destFileName>
