@@ -294,16 +294,16 @@
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for esignet authentication wrapper -->
-				<artifactItem>
+<!--				<artifactItem>
 					<groupId>io.mosip.esignet.mock</groupId>
 					<artifactId>mock-esignet-integration-impl</artifactId>
 					<version>${esignet-mock-wrapper.version}</version>
 					<!-- <scope>system</scope> -->
-    					<systemPath>${project.basedir}/src/esignet/mock-esignet-integration-impl/0.9.1/mock-esignet-integration-impl-0.9.1.jar</systemPath>
+    					<!-- <systemPath>${project.basedir}/src/esignet/mock-esignet-integration-impl/0.9.1/mock-esignet-integration-impl-0.9.1.jar</systemPath> -->
 					<outputDirectory>${esignet-wrapper.location}</outputDirectory>
 					<destFileName>${esignet-mock-wrapper.fileName}</destFileName>
 					<type>jar</type>
-				</artifactItem>
+				</artifactItem> -->
 					<artifactItem>
 						<groupId>io.mosip.authentication</groupId>
 						<artifactId>esignet-integration-impl</artifactId>
