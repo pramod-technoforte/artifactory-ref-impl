@@ -98,6 +98,14 @@
     "email_placeholder": "Email Address: {{emailAddress}}",
     "mobile_email_placeholder": "Mobile Number: {{mobileNumber}} and Email Address: {{emailAddress}}"
   },
+  "totp": {
+    "sign_in_with_totp": "Login with TOTP",
+    "vid_label_text": "Enter your VID",
+    "totp_label_text": "Enter TOTP",
+    "verify": "Verify",
+    "vid_placeholder": "VID",
+    "totp_placeholder": "TOTP"
+  },
   "signInOption": {
     "login_option_heading": "Choose How You Want to Login:",
     "login_with": "Login with {{option}}",
